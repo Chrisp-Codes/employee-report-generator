@@ -4,7 +4,7 @@
 ![Build](https://img.shields.io/badge/build-pdfkit%20%2B%20wkhtmltopdf-success)
 ![Status](https://img.shields.io/badge/status-beta-yellow)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
-[![English](https://img.shields.io/badge/README-English-informational?style=flat-square)](README_en.md)
+[![Deutsch](https://img.shields.io/badge/README-Deutsch-informational?style=flat-square)](README.md)
 
 ---
 
