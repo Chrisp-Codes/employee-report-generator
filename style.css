@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+  background: white;
+  color: #222;
+}
+
+.report-wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 28px;
+  text-transform: uppercase;
+  color: #004080;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 20px;
+  margin-top: 5px;
+  color: #444;
+}
+
+.subline {
+  font-style: italic;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.person p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.kennzahlen {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.kennzahlen th, .kennzahlen td {
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+.kennzahlen th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 12px;
+  color: #777;
+  text-align: center;
+}
