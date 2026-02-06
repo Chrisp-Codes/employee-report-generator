@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Feiertagsreport</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="report-wrapper">
+    <h1>UNTERNEHMENSNAME</h1>
+    <h2>FEIERTAGSREPORT</h2>
+    <p class="subline">Persönliche Übersicht zu Feiertagen und Ausgleichstagen</p>
+
+    <div class="person">
+      <p><strong>Vorname:</strong> {{ vorname }}</p>
+      <p><strong>Nachname:</strong> {{ nachname }}</p>
+      <p><strong>Personalnummer:</strong> {{ personalnummer }}</p>
+      <p><strong>Zeitraum:</strong> {{ zeitraum }}</p>
+    </div>
+
+    <table class="kennzahlen">
+      <thead>
+        <tr>
+          <th>Kennzahl</th>
+          <th>Wert</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Gearbeitete Feiertage</td><td>{{ gearbt_feiertage }}</td></tr>
+        <tr><td>Freie Feiertage</td><td>{{ freie_feiertage }}</td></tr>
+        <tr><td>Genommene Ausgleichstage</td><td>{{ ausgleichstage_genommen }}</td></tr>
+        <tr><td>Noch offene Ausgleichstage</td><td>{{ ausgleichstage_offen }}</td></tr>
+      </tbody>
+    </table>
+
+    <footer>
+      <p>Automatisch erstellt | Datenquelle: HR-System | Stand: {{ export_date or '02.02.2026' }}</p>
+    </footer>
+  </div>
+</body>
+</html>
